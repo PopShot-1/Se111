@@ -38,33 +38,27 @@ body{
     font-family:Audiowide;
     
 }
-#flex{
-    display:flex;
-}
-.title{
-    
-    flex: 33.33%;
+.character{
+    text-align: center;
     padding: 5px;
     font-size: 20px;
     color:aliceblue;
     font-family:Audiowide;
     
 }
-.images:hover{
-    height: 800px;
+.title{
+    font-size: 50px;
+    text-align: center
 }
 
+
+
 .images{
-    height: 700px;
+    height: 100px;
     border: 3px solid darkcyan;
 }
 .info{
     font-size: 20px;
     color:aliceblue;
     font-family:Audiowide;
-}
-.audio{
-    opacity: 15%;
-    color:blue;
-    
 }
