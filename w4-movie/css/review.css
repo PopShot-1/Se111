@@ -1,6 +1,7 @@
 body{
     background-image: url("../images/Background.jpg") ;
     background-size:100%;
+    text-align:center;
 }
 
 #header{
@@ -46,18 +47,35 @@ body{
     font-family:Audiowide;
     
 }
-.title{
-    font-size: 50px;
+#flex{
+    display:flex;
     text-align: center
+}
+.review{
+    
+    flex: 33.33%; 
+    padding: 10px;
+    
+}
+.title{
+    flex: 33.33%; 
+    padding: 5px;
+    font-size: 20px;
+    text-align: center
+    
 }
 
 
 
 .images{
-    height: 100px;
+    
+    height: 800px;
     border: 3px solid darkcyan;
+    text-align: center;
+
 }
 .info{
+    text-align: center;
     font-size: 20px;
     color:aliceblue;
     font-family:Audiowide;
